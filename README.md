@@ -10,4 +10,4 @@ Each of these files contain the birthday information on the entire population of
 
 <h3>Moving Forward</h3>
 Either we take random samples from both populations and compare them individually, or we use both of the entire populations as our samples.
-For combining the populations, we should get the same answer from running an analysis on the combined data, or by manipulating the data individually and combining it. By this, I mean Xc = Xf + Xb where X means mean, and c,f,b mean combined, football, baseball. and S^2c = S^2f + S^2b
+For combining the populations, we should get the same answer from running an analysis on the combined data, or by manipulating the data individually and combining it. By this, I mean Xc = Xf + Xb where X means mean, and c,f,b mean combined, football, baseball. and S^2c = S^2f + S^2b.
