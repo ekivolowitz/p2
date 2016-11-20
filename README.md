@@ -14,6 +14,4 @@ For combining the populations, we should get the same answer from running an ana
 
 
 <h3>Moving Forward</h3>
-Either we take random samples from both populations and compare them individually, or we use both of the entire populations as our samples. My vote is for using the combined populations as we have access to the data and they are computational equivalent in code and price. 
-
-<ul><li>The process of analyzing these would be a binomial hypothesis test where H0 = proportion of athletes born in months 1-6 = proportion of athletes born in months 7-12.</li>
+Either we take random samples from both populations and compare them individually, or we use both of the entire populations as our samples. My vote is for using the combined populations as we have access to the data and they are computational equivalent in code and price. The process of analyzing these would be a binomial hypothesis test where <ul><li>H0: proportion of athletes born in months 1-6 = proportion of athletes born in months 7-12.</li><li>HA: proportion of athletes born in months 1-6 != proportion of athletes born in months 7-12.</li></ul>
