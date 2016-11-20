@@ -1,8 +1,8 @@
 <h3>Project 2 Data Collection.</h3>
 
 I have scraped together two datasets: <ul>
-<li><a href="https://github.com/ekivolowitz/p2/blob/master/baseball_birthdays.txt">baseball_birthdays.txt</a></li>
-<li><a href="https://github.com/ekivolowitz/p2/blob/master/football_birthdays.txt">football_birthdays.txt</a></li>
+<li><a href="https://github.com/ekivolowitz/p2/blob/master/baseball_birthdays.txt">baseball_birthdays.txt</a> 1935 players.</li>
+<li><a href="https://github.com/ekivolowitz/p2/blob/master/football_birthdays.txt">football_birthdays.txt</a> 4104 players.</li>
 </ul>
 Each of these files contain the birthday information on the entire population of athletes in the respective sports in no particular order.
 
@@ -12,4 +12,5 @@ For the populations as samples, we could use a Two-Sample Z-Test.
 
 <img src="images/tests.png">
 
-We can do this because both Standard Deviations for both populations are known (more rather we can determine them by analyzing the code).
+We can do this because both Standard Deviations for both populations are known (more rather we can relatively easily determine them by analyzing the data).
+
