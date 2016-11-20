@@ -10,4 +10,6 @@ Each of these files contain the birthday information on the entire population of
 Either we take random samples from both populations and compare them individually, or we use both of the entire populations as our samples.
 For the populations as samples, we could use a Two-Sample Z-Test.
 
-<img src="images/tests.png>
+<img src="images/tests.png">
+
+We can do this because both Standard Deviations for both populations are known (more rather we can determine them by analyzing the code).
