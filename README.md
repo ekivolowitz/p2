@@ -5,13 +5,9 @@ I have scraped together two datasets: <ul>
 <li><a href="https://github.com/ekivolowitz/p2/blob/master/football_birthdays.txt">football_birthdays.txt</a> 4104 Football players.</li>
 <li><a href="https://github.com/ekivolowitz/p2/blob/master/combined.txt">combined.txt</a> 6039 Football and Baseball players combined.</li> 
 </ul>
+<strong> Note the schema of all three files follows "Month/Day/Year".</strong>
 Each of these files contain the birthday information on the entire population of athletes in the respective sports in no particular order.
 
 <h3>Moving Forward</h3>
 Either we take random samples from both populations and compare them individually, or we use both of the entire populations as our samples.
-For the populations as samples, we could use a Two-Sample Z-Test.
-
-<img src="images/tests.png">
-
-We can do this because both Standard Deviations for both populations are known (more rather we can relatively easily determine them by analyzing the data).
-
+For combining the populations, we should get the same answer from running an analysis on the combined data, or by manipulating the data individually and combining it. By this, I mean Xc = Xf + Xb where X means mean, and c,f,b mean combined, football, baseball. and S^2c = S^2f + S^2b
